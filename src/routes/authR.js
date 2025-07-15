@@ -79,7 +79,6 @@ authRouter.post("/login",async(req,res) => {
                 httpOnly: true,
                 secure: true,
                 sameSite: "None",
-                domain: ".onrender.com",
                 path: "/"
             });
            res.json({
